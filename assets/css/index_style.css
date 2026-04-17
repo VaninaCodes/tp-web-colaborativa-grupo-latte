@@ -1,0 +1,23 @@
+/*PALETA
+    Golden batter #E8D1A7
+    Toasted caramel #84592B
+    Spiced Wine #743014
+    Cowhide cocoa #442D1C*/
+
+nav {
+    display: flex;
+    background-color: #342519;
+    padding: 10px;
+    justify-content: space-around;
+    font-family: franklin gothic medium;
+    font-size: 20px;
+}
+ul li {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #E8D1A7
+}
