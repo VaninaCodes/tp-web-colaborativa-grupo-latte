@@ -1,0 +1,45 @@
+/*PALETA
+    Golden batter #E8D1A7
+    Toasted caramel #84592B
+    Spiced Wine #743014
+    Cowhide cocoa #442D1C*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+body{
+    background-color: #E8D1A7;
+}
+nav {
+    display: flex;
+    background-color: #342519;
+    padding: 10px;
+    justify-content: space-around;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+ul li {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #E8D1A7
+}
+#enlace-1{
+    color: #442D1C;
+}
+h2{
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #84592B;
+}
+h3{
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #84592B;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+}
