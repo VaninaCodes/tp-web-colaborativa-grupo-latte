@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+body{
+    padding: 10px
+}
+nav {
+    display: flex;
+    background-color: #342519;
+    padding: 10px;
+    justify-content: space-around;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+ul li {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #E8D1A7
+}
+label {
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+}
+.Titulo {
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 20px;
+}
+.form-name {
+    padding: 15px;
+    margin: 0;
+}
+.form-mail {
+    padding: 15px;
+    margin: 0;
+}
+.form-tel {
+    padding: 15px;
+    margin: 0;
+}
+.form-msg {
+    padding: 15px;
+    height: 100px;
+    
+}
+.place-msg {
+    height: 80px;
+    width: 40vh;
+}
+button {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    background-color: #342519;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+button:hover {
+    animation: forwards;
+}
