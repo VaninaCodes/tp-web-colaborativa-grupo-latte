@@ -3,13 +3,13 @@
     Toasted caramel #84592B
     Spiced Wine #743014
     Cowhide cocoa #442D1C*/
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 nav {
     display: flex;
     background-color: #342519;
     padding: 10px;
     justify-content: space-around;
-    font-family: franklin gothic medium;
+    font-family: 'Oswald', sans-serif;
     font-size: 20px;
 }
 ul li {
