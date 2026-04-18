@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 body{
-    padding: 10px
+    padding: 0px;
+    margin: 0;
 }
 nav {
     display: flex;
@@ -12,19 +13,22 @@ nav {
 }
 ul li {
     display: flex;
-    gap: 40px;
+    gap: 50px;
     list-style: none;
 }
 a {
     text-decoration: none;
     color: #E8D1A7
 }
+a:hover {
+    color: #684F36;
+}
 label {
     font-family: 'Oswald', sans-serif;
     font-size: 17px;
 }
 .Titulo {
-    font-size: 45px;
+    font-size: 50px;
     font-family: 'Oswald', sans-serif;
 }
 .form {
@@ -33,7 +37,10 @@ label {
     justify-content: center;
     align-items: center;
     text-align: left;
-    gap: 20px;
+    padding: 80px;
+    border: 1px solid #684F36;
+    margin: 50px auto;
+    max-width: 700px;
 }
 .form-name {
     padding: 15px;
@@ -58,13 +65,25 @@ label {
 }
 button {
     font-family: 'Oswald', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
+    color: #E8D1A7;
     background-color: #342519;
     padding: 10px;
     border: none;
     border-radius: 5px;
-    width: 100%;
+    width: 400px;
 }
 button:hover {
-    animation: forwards;
+    background-color: #684F36;
+}
+input[type="text"],
+input[type="mail"],
+input[type="tel"] {
+    padding: 10px;
+    border: 1px solid #684F36;;
+    width: 350px;
+}
+input:focus {
+    border: 2px solid #342519;
+    outline: none;
 }
