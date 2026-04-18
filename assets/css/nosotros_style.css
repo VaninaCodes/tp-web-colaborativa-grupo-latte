@@ -27,6 +27,9 @@ a {
 #enlace-1{
     color: #442D1C;
 }
+#enlace-1:hover{
+    color: #743014;
+}
 h2{
     padding: 10px;
     font-family: 'Oswald', sans-serif;
@@ -35,11 +38,37 @@ h2{
     color: #84592B;
 }
 h3{
-    padding: 10px;
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
     color: #84592B;
 }
 p{
     font-family: 'Oswald', sans-serif;
+}
+#datos{
+    font-family: 'Oswald', sans-serif;
+}
+.datos-div{
+    padding: 10px;
+    background-color: #442D1C;
+    border: 6px solid #E8D1A7;
+    border-radius: 10px;
+    color: #E8D1A7;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.datos-div:hover{
+    height: 80px;
+    color: #342519;
+    background-color: #84592B;
+}
+#creditos{
+    color: #743014;
+    text-align: center  ;
+}
+section{
+    margin-left: 150px;
+    margin-right: 150px;
 }
