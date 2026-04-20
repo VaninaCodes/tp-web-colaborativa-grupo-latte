@@ -16,9 +16,32 @@ a {
     text-decoration: none;
     color: #E8D1A7
 }
+a:hover{
+    color: #84592B;
+}
 nav ul li a:hover {
     color: #947451;
     transition: 0.3s;
+}
+header{
+    background-color: #342519;
+    padding: 20px;
+    width: auto;
+}
+header img{
+    width: 200px;
+}
+h1{
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #E8D1A7;
+}
+#header-logo{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
 }
 .contenedor-grid {
     display: grid;

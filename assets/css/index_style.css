@@ -4,6 +4,9 @@
     Spiced Wine #743014
     Cowhide cocoa #442D1C*/
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+body{
+    margin: 0;
+}
 nav {
     display: flex;
     background-color: #342519;
@@ -20,6 +23,29 @@ ul li {
 a {
     text-decoration: none;
     color: #E8D1A7
+}
+a:hover{
+    color: #84592B;
+}
+header{
+    background-color: #342519;
+    padding: 20px;
+    width: auto;
+}
+header img{
+    width: 200px;
+}
+h1{
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #E8D1A7;
+}
+#header-logo{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
 }
 footer {
     display: grid;

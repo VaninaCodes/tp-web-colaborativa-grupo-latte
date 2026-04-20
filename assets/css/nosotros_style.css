@@ -25,6 +25,9 @@ a {
     text-decoration: none;
     color: #E8D1A7
 }
+a:hover{
+    color: #84592B;
+}
 #enlace-1{
     color: #442D1C;
 }

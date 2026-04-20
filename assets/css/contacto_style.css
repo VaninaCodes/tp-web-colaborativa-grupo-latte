@@ -20,12 +20,32 @@ a {
     text-decoration: none;
     color: #E8D1A7;
 }
-a:hover {
-    color: #684F36;
+a:hover{
+    color: #84592B;
 }
 label {
     font-family: 'Oswald', sans-serif;
     font-size: 17px;
+}
+header{
+    background-color: #342519;
+    padding: 20px;
+    width: auto;
+}
+header img{
+    width: 200px;
+}
+h1{
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #E8D1A7;
+}
+#header-logo{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
 }
 .Titulo {
     font-size: 50px;
