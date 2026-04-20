@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+}
+nav {
+    display: flex;
+    background-color: #342519;
+    padding: 10px;
+    justify-content: space-around;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+ul li {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #E8D1A7;
+}
+a:hover {
+    color: #684F36;
+}
+label {
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+}
+.Titulo {
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 80px;
+    border: 1px solid #684F36;
+    margin: 50px auto;
+    max-width: 700px;
+}
+.form-name {
+    padding: 15px;
+    margin: 0;
+}
+.form-mail {
+    padding: 15px;
+    margin: 0;
+}
+.form-tel {
+    padding: 15px;
+    margin: 0;
+}
+.form-msg {
+    padding: 15px;
+    height: 100px;
+    
+}
+.place-msg {
+    height: 80px;
+    width: 40vh;
+}
+button {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    color: #E8D1A7;
+    background-color: #342519;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 400px;
+}
+button:hover {
+    background-color: #684F36;
+    cursor: pointer;
+}
+input[type="text"],
+input[type="mail"],
+input[type="tel"] {
+    padding: 10px;
+    border: 1px solid #684F36;;
+    width: 350px;
+}
+input:focus {
+    border: 2px solid #342519;
+    outline: none;
+}
+footer {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    background-color: #342519;
+    color: #E8D1A7;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
