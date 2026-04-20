@@ -93,3 +93,16 @@ section{
     margin-left: 150px;
     margin-right: 150px;
 }
+footer {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    background-color: #342519;
+    color: #E8D1A7;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    justify-content: space-around;
+}
+footer img {
+    width: 100px;
+}
