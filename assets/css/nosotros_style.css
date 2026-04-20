@@ -6,11 +6,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 body{
     background-color: #E8D1A7;
+    margin: 0;
 }
 nav {
     display: flex;
     background-color: #342519;
-    padding: 10px;
+    padding: 10px 20px;
     justify-content: space-around;
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
@@ -29,6 +30,26 @@ a {
 }
 #enlace-1:hover{
     color: #743014;
+}
+header{
+    background-color: #342519;
+    padding: 20px;
+    width: auto;
+}
+header img{
+    width: 200px;
+}
+h1{
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #E8D1A7;
+}
+#header-logo{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
 }
 h2{
     padding: 10px;
