@@ -96,4 +96,8 @@ footer {
     color: #E8D1A7;
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
+    justify-content: space-around;
+}
+footer img {
+    width: 100px;
 }
